@@ -4,7 +4,7 @@ from scrapy.spiders import CrawlSpider, Rule
 
 class Icd9Spider(CrawlSpider):
     name = 'icd9__'
-    start_urls = ['http://www.icd9data.com/2015/Volume1/default.htm']
+    start_urls = ['http://www.icd9data.com']
     num = 1
     rules = (
         # 定位到指定的url
